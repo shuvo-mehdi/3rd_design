@@ -1,0 +1,86 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+</style>
+*{/* margin: 0; */box-sizing: border-box;}
+
+body{ font-family: 'Roboto', sans-serif;}
+img {max-width: 100%;}
+.heroBanner{
+    
+background: rgb(0 0 0 / 67%) url(../images/picture01.jpg);
+    
+background-repeat:no-repeat;
+    
+background-position: 0px 100%;
+    
+background-size: cover;
+    
+background-attachment: fixed;
+    
+background-blend-mode: overlay;
+    
+padding: 200px 0;
+}
+
+.bannerContent {max-width: 800px;
+    
+    margin:0 auto;
+text-align: center;}
+
+.bannerContent h1{font-size: 34px;color: #fff;}
+
+.bannerContent p{font-size: 20px;color: #fff;}
+
+.blogSection{ padding: 50px 0;}
+.container{max-width: 1200px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+}
+.column{ flex-basis: 23%;
+padding: 10px;}
+.card{
+  padding: 27px 21px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px rgb(14 25 76 / 31%);
+  transition-duration: 0.4s;
+  }
+
+.card h2 {color: #000000;font-size: 19px;font-weight: 900;}
+.card p {color: #000000;font-size: 15px;line-height: 1.4;margin: 10px 0 30px;}
+
+.card a{
+    
+    padding: 8px 18px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 300;
+    transition-duration: 0.4s;
+}
+
+/*.card a:hover{
+  background-color: #fff;
+  color: #222;
+  
+} */
+
+.card:hover {
+
+  background-color: black;
+}
+
+.card:hover h2{ color: #fff; }
+.card:hover p{ color: #fff; }
+
+.card:hover a{
+  background-color: #fff;
+  color: #222;
+  }
+
+  .card a:hover{
+    background-color: transparent;
+    color: #ffffff;
+    }
